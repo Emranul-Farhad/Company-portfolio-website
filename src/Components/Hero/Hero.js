@@ -11,7 +11,7 @@ const Hero = () => {
                 <li className='mt-2' >about</li>
                 <li className='mt-2' >featured </li>
             </ul>
-            <p className='mt-[150px] lg:mt-[0px]  art uppercase text-center font-extrabold'>Just <br />
+            <p className='mx-auto mt-[150px] lg:mt-[0px]  art uppercase text-center font-extrabold'>Just <br />
             <span>solu<span className='text-[#5e9e9f] '>t</span>ions</span> </p>
         </section>
         <p className='slogan font-extrabold text-[#5e9e9f] uppercase text-center'> marketing | Web development | grapich Design | Ar/vr </p>

@@ -1,0 +1,31 @@
+.box-hover{
+    box-sizing: border-box;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    cursor: crosshair;
+  
+}
+
+.box-hover:hover{
+    box-shadow: 17px 20px 8px -3px #5e9e9f;
+    transform: scale(1.1);
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+}
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 150%;
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      
+    }
+  }
+
