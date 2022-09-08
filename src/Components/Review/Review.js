@@ -22,24 +22,28 @@ const Review = () => {
 
   const reviews = [
     {
+      name: "jhon dow",
       src: "https://themes.envytheme.com/gunter/wp-content/uploads/2020/07/user1.jpg",
       id : "1",
-      qutes : " Worked with Ariful on a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
+      qutes : " Worked withjust solutionson a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
     },
     {
+      name: "jhon dow",
       src: "https://themes.envytheme.com/gunter/wp-content/uploads/2020/07/user2.jpg",
       id : "2",
-      qutes : " Worked with Ariful on a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
+      qutes : " Worked withjust solutionson a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
     },
     {
+      name: "jhon dow",
       src: "https://themes.envytheme.com/gunter/wp-content/uploads/2020/07/user3.jpg",
       id : "3",
-      qutes : " Worked with Ariful on a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
+      qutes : " Worked withjust solutionson a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
     },
     {
+      name: "jhon dow",
       src: "https://themes.envytheme.com/gunter/wp-content/uploads/2020/07/user3.jpg",
       id : "4",
-      qutes : " Worked with Ariful on a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
+      qutes : " Worked withjust solutionson a project and he was highly Professional and also had things done in a timely manner. He has a Designes eye and is highly skilled and easy to work with."
     },
  
  
@@ -76,7 +80,7 @@ const Review = () => {
         >
           {reviews.map((review, index) => (
             <SwiperSlide className=" flex justify-center " key={index}>
-              <Reviews seri={review}></Reviews>
+              <Reviews revdata={review}></Reviews>
             </SwiperSlide>
           ))}
         </Swiper>
