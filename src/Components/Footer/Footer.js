@@ -3,7 +3,7 @@ import { FaDiscord, FaFacebook, FaTelegramPlane } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <div className='mt-[70px] bg-[#5e9e9f]'>
+    <div className='mt-[70px] bg-[#5e9e9f]' >
         <footer className="">
 			<div className="flex flex-col lg:flex-row justify-between container mx-auto px-6  py-12  ">
 				<div className="flex flex-col items-start w-1/2 box-border">

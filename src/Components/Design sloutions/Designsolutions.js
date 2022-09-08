@@ -56,7 +56,7 @@ const Designsolutions = () => {
                     <span className='text-4xl uppercase font-bold common' > that you will get from us </span>  </p>
         </div>
         {/* grapich servcices detials */}
-        <div className='grid grid-cols-2 lg:grid-cols-3 container mx-auto px-6 lg:w-[1220px] gap-x-5 gap-y-7' >
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto px-6 lg:w-[1220px] gap-x-5 gap-y-7' >
             {
                 logos.map(logo => <Solutions key={logo.id}  soldata={logo} ></Solutions>  )
             }

@@ -32,9 +32,9 @@ const Contact = () => {
   {/* contact div */}
 
     <div>
-    <div className='mt-[50px]'>
+    <div className='mt-[50px] container mx-auto px-6'>
             
-            <div className='flex  justify-around items-center-center'>
+            <div className='flex flex-col gap-y-10 lg:flex-row lg:gap-y-0 justify-around items-center-center'>
                 <div className=''>
                     <div className=''>
                         

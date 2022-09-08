@@ -17,7 +17,7 @@ const Pages = () => {
     <div>
        <Hero></Hero>
        {/*  */}
-       <div className='mt-[150px]'>
+       <div className='mt-[150px]' id='Web'>
         <Web></Web>
        </div>
        {/*  */}
@@ -25,7 +25,7 @@ const Pages = () => {
         <Service></Service>
        </div>
        {/*  */}
-       <div className='mt-[150px]'>
+       <div className='mt-[150px]' id='Graph'>
         <Designservice></Designservice>
        </div>
        <div className='mt-[120px]'>
@@ -35,10 +35,10 @@ const Pages = () => {
        <div className='mt-[150px]' >
         <Review></Review>
        </div>
-       <div className='mt-[90px]'>
+       <div className='mt-[90px]' id='Contact'>
         <Contact></Contact>
        </div>
-       <div className='mt-100px'>
+       <div className='mt-100px' id='Footer'>
         <Footer></Footer>
        </div>
     </div>

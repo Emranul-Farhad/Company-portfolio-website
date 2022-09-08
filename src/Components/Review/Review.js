@@ -55,7 +55,7 @@ const Review = () => {
     <div>
       <div className="mb-[50px]">
         <p
-          className="text-left px-6 container mx-auto
+          className="text-left px-7 container mx-auto
                 "
         >
           <span className="text-[#5e9e9f] font-extrabold uppercase text-[15px] ">
