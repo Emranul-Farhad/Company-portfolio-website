@@ -54,7 +54,7 @@ const Designservice = () => {
           </span>{" "}
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-x-12 gap-y-10 mx-auto container px-6 ">
+      <div className="flex flex-col md:flex-row justify-center md:gap-x-12 gap-y-10 mx-auto container px-6 lg:w-[1220px]">
         <div className="">
           <img
             className=""
@@ -108,17 +108,13 @@ const Designservice = () => {
           autoplay={true}
         >
           {grapichs.map((image, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide className="mx-auto container px-6" key={index}>
               <Designservices seri={image}></Designservices>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ullam.
-        </p>
-      </div>
+      
     </div>
   );
 };

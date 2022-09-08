@@ -1,5 +1,7 @@
 import React from 'react'
+import Designsolutions from '../Components/Design sloutions/Designsolutions'
 import Hero from '../Components/Hero/Hero'
+import Review from '../Components/Review/Review'
 import Service from '../Components/SerrviceProvides/Service'
 
 import Web from '../Components/WebDemo/Web'
@@ -23,6 +25,13 @@ const Pages = () => {
        {/*  */}
        <div className='mt-[150px]'>
         <Designservice></Designservice>
+       </div>
+       <div className='mt-[120px]'>
+        <Designsolutions></Designsolutions>
+       </div>
+       {/*  */}
+       <div className='mt-[150px]' >
+        <Review></Review>
        </div>
     </div>
   )
