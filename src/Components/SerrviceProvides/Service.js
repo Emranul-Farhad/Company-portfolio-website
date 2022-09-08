@@ -67,7 +67,7 @@ const Service = () => {
   return (
     <div>
       <div className="">
-        <p className='text-left px-6 container mx-auto uppercase' > <span className="text-[#5e9e9f] text-3xl font-extrabold ">services </span> <br />
+        <p className='text-left px-6 container mx-auto uppercase' > <span className="text-[#5e9e9f] text-3xl font-extrabold ">web solutions </span> <br />
         <span className="font-bold text-[14px] common" >that you will get from us</span></p>
 
         <div className='mt-[90px] grid grid-row md:grid-cols-3 lg:grid-cols-4 mx-auto container px-6 gap-6 gap-y-10' >
