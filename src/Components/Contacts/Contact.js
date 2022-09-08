@@ -34,7 +34,7 @@ const Contact = () => {
     <div>
     <div className='mt-[50px]'>
             
-            <div className='flex  justify-around items-center'>
+            <div className='flex  justify-around items-center-center'>
                 <div className=''>
                     <div className=''>
                         
@@ -82,7 +82,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, in.</p>
+
     </div>
   );
 };

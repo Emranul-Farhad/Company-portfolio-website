@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../Components/Contacts/Contact'
 import Designsolutions from '../Components/Design sloutions/Designsolutions'
+import Footer from '../Components/Footer/Footer'
 import Hero from '../Components/Hero/Hero'
 import Review from '../Components/Review/Review'
 import Service from '../Components/SerrviceProvides/Service'
@@ -34,8 +35,11 @@ const Pages = () => {
        <div className='mt-[150px]' >
         <Review></Review>
        </div>
-       <div className='mt-[70px]'>
+       <div className='mt-[90px]'>
         <Contact></Contact>
+       </div>
+       <div className='mt-100px'>
+        <Footer></Footer>
        </div>
     </div>
   )
