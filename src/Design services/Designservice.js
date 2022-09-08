@@ -102,10 +102,28 @@ const Designservice = () => {
         <Swiper
           modules={[Navigation, Autoplay, Pagination, Scrollbar, Zoom, A11y]}
           spaceBetween={20}
-          slidesPerView={3}
+          // slidesPerView={3}
           centeredslide="true"
           key={grapichs.length}
           autoplay={true}
+          breakpoints={{
+            520: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 0,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
         >
           {grapichs.map((image, index) => (
             <SwiperSlide className="mx-auto container px-6" key={index}>
