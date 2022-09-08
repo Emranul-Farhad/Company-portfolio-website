@@ -52,7 +52,7 @@ const Web = () => {
             </div>
             {/*  */}
 
-          <div className='container px-6 mt-[100px] grid grid-row md:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 gap-y-10'>
+          <div className='container px-6 mt-[90px] grid grid-row md:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 gap-y-10'>
           {
                 web.map(webs => <Webdetails key={webs.id}
                   data={webs}  ></Webdetails> )
