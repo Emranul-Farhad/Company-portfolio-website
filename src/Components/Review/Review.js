@@ -69,7 +69,7 @@ const Review = () => {
         </p>
       </div>
       {/*  */}
-       <div className="">
+       <div className="mt-[30px]">
          
           <Swiper
           modules={[Navigation, Autoplay, Pagination, Scrollbar, Zoom, A11y]}

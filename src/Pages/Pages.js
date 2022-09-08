@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../Components/Contacts/Contact'
 import Designsolutions from '../Components/Design sloutions/Designsolutions'
 import Hero from '../Components/Hero/Hero'
 import Review from '../Components/Review/Review'
@@ -32,6 +33,9 @@ const Pages = () => {
        {/*  */}
        <div className='mt-[150px]' >
         <Review></Review>
+       </div>
+       <div className='mt-[70px]'>
+        <Contact></Contact>
        </div>
     </div>
   )
